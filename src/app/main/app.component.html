@@ -1,0 +1,8 @@
+<div class="container">
+	<div class="worldMap">
+		<app-world-map (regionOutput)="handleOutput($event)"></app-world-map>
+	</div>
+  <div class="searchBar">
+    <app-search-bar [regionInput]="recentRegion"></app-search-bar>
+  </div>
+</div>

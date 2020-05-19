@@ -1,0 +1,94 @@
+.search-container{
+  background-image: url('https://vignette.wikia.nocookie.net/2007scape/images/5/50/Wiki-background/revision/latest?cb=20190901163329');
+  height: 100vh;
+  background-repeat: repeat-y;
+  background-position: center;
+  object-position: cover;
+}
+
+.home-container, .zeah-container, .kandarin-container, .selected-region {
+  font-size: .5rem;
+  color: #ffff00;
+  font-family: 'Press Start 2P', cursive;
+  padding: .5rem 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-container h1, .zeah-container h1, .kandarin-container h1 {
+  font-size: .5rem;
+  color: #ffff00;
+  font-family: 'Press Start 2P', cursive;
+  padding: .5rem 0;
+  background-color: #00000033;
+  display: flex;
+  max-height: 1rem;
+  align-content: center;
+  justify-content: center;
+  order: 0;
+}
+
+.home-container h2 {
+  font-size: .55rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P', cursive;
+  order: 1;
+}
+
+.home-container p {
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  order: 2;
+}
+
+.selected-region p {
+  font-size: .5rem;
+  color: #ffff00;
+  font-family: 'Press Start 2P', cursive;
+  padding: .5rem 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.asgarnia-container {
+  font-size: .5rem;
+  color: #ffff00;
+  font-family: 'Press Start 2P', cursive;
+  padding: .5rem 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  line-height: 20px;
+}
+
+.asgarnia-container h1 {
+  font-size: .5rem;
+  color: #ffff00;
+  font-family: 'Press Start 2P', cursive;
+  padding: .5rem 0;
+  background-color: #00000033;
+  display: inline-block;
+  max-height: 1rem;
+  align-content: center;
+  vertical-align:middle;
+  justify-content: center;
+ line-height: 1.1em;
+  order: 0;
+}
+
+.skill-box-container {
+  background-image: url();
+  height: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
+}

@@ -1,0 +1,109 @@
+<div class="search-container">
+ <div class="selected-region" *ngIf="regionInput"> 
+    <p>
+      Selected Region: {{regionInput}}
+    </p>
+  </div>
+
+  <div class="home-container" *ngIf="!regionInput">
+    <h1>OSRS Training Map</h1>
+    <h2>How To Use:</h2>
+    <p>
+      text
+    </p>
+  </div>
+
+  <div class="zeah-container" *ngIf="regionInput==='Zeah'">
+    <h1>Zeah</h1>
+  </div>
+
+  <div class="kandarin-container" *ngIf="regionInput==='Kandarin'">
+    <h1>Kandarin</h1>
+  </div>
+
+  <div class="asgarnia-container" *ngIf="regionInput==='Asgarnia'">
+    <h1>Asgarnia/Mithsalin</h1>
+  </div>
+
+  <div class="skill-box-container">
+    <div class="skill-box-zeah" *ngIf="regionInput==='Zeah'">
+      <div class="attack-zeah"><h1>test</h1></div>
+      <div class="strength-zeah"></div>
+      <div class="defence-zeah"></div>
+      <div class="range-zeah"></div>
+      <div class="magic-zeah"></div>
+      <div class="hp-zeah"></div>
+      <div class="prayer-zeah"></div>
+      <div class="runecrafting-zeah"></div>
+      <div class="construction-zeah"></div>
+      <div class="agility-zeah"></div>
+      <div class="herblore-zeah"></div>
+      <div class="thieving-zeah"></div>
+      <div class="crafting-zeah"></div>
+      <div class="slayer-zeah"></div>
+      <div class="hunter-zeah"></div>
+      <div class="fletching-zeah"></div>
+      <div class="mining-zeah"></div>
+      <div class="smithing-zeah"></div>
+      <div class="fishing-zeah"></div>
+      <div class="cooking-zeah"></div>
+      <div class="firemaking-zeah"></div>
+      <div class="woodcutting-zeah"></div>
+      <div class="farming-zeah"></div>
+    </div>
+
+    <div class="skill-box-kandarin" *ngIf="regionInput==='Kandarin'">
+      <div class="attack-kandarin"></div>
+      <div class="strength-kandarin"></div>
+      <div class="defence-kandarin"></div>
+      <div class="range-kandarin"></div>
+      <div class="magic-kandarin"></div>
+      <div class="hp-kandarin"></div>
+      <div class="prayer-kandarin"></div>
+      <div class="runecrafting-kandarin"></div>
+      <div class="construction-kandarin"></div>
+      <div class="agility-kandarin"></div>
+      <div class="herblore-kandarin"></div>
+      <div class="thieving-kandarin"></div>
+      <div class="crafting-kandarin"></div>
+      <div class="slayer-kandarin"></div>
+      <div class="hunter-kandarin"></div>
+      <div class="fletching-kandarin"></div>
+      <div class="mining-kandarin"></div>
+      <div class="smithing-kandarin"></div>
+      <div class="fishing-kandarin"></div>
+      <div class="cooking-kandarin"></div>
+      <div class="firemaking-kandarin"></div>
+      <div class="woodcutting-kandarin"></div>
+      <div class="farming-kandarin"></div>
+    </div>
+
+    <div class="skill-box-asgarnia" *ngIf="regionInput==='Asgarnia'">
+      <div class="attack-asgarnia"></div>
+      <div class="strength-asgarnia"></div>
+      <div class="defence-asgarnia"></div>
+      <div class="range-asgarnia"></div>
+      <div class="magic-asgarnia"></div>
+      <div class="hp-asgarnia"></div>
+      <div class="prayer-asgarnia"></div>
+      <div class="runecrafting-asgarnia"></div>
+      <div class="construction-asgarnia"></div>
+      <div class="agility-asgarnia"></div>
+      <div class="herblore-asgarnia"></div>
+      <div class="thieving-asgarnia"></div>
+      <div class="crafting-asgarnia"></div>
+      <div class="slayer-asgarnia"></div>
+      <div class="hunter-asgarnia"></div>
+      <div class="fletching-asgarnia"></div>
+      <div class="mining-asgarnia"></div>
+      <div class="smithing-asgarnia"></div>
+      <div class="fishing-asgarnia"></div>
+      <div class="cooking-asgarnia"></div>
+      <div class="firemaking-asgarnia"></div>
+      <div class="woodcutting-asgarnia"></div>
+      <div class="farming-asgarnia"></div>
+    </div>
+  </div>
+
+
+</div>

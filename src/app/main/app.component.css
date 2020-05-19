@@ -1,0 +1,15 @@
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+
+.searchBar {
+    width: 25%;
+}
+
+.worldMap {
+    width: 75%;
+}

@@ -1,0 +1,30 @@
+.world-container {
+  height: 100%;
+  display: flex;
+  background-image: url('https://i.redd.it/4gv28sudecpx.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+.worldLeft, .worldCenter, .worldRight {
+  width: 33.33%;
+  justify-content: center;
+  display: flex;
+}
+
+.worldLeft:hover, .worldCenter:hover, .worldRight:hover {
+  background-color: #ffffff25;
+}
+
+h1 {
+  font-size: .65rem;
+  color: #ffff00;
+  font-family: 'Press Start 2P', cursive;
+  padding: .5rem 0;
+  background-color: #00000033;
+  display: flex;
+  max-height: 1rem;
+  align-content: center;
+}
